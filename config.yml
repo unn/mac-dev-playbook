@@ -1,0 +1,129 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_sudoers: no
+configure_terminal: no
+configure_osx: no
+
+dotfiles_repo: https://github.com/unn/dotfiles.git
+dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_local_destination: ~/dotfiles
+dotfiles_files:
+  - .bash_profile
+  - .gitconfig
+  - .gitignore
+  - .inputrc
+  - .osx
+  - .vimrc
+
+homebrew_installed_packages:
+  - ack
+  - awscli
+  - autoconf
+  - bash-completion
+  - curl
+  - ddev
+  - direnv
+  - gettext
+  - gist
+  - git
+  - go
+  - gpg
+  - gpg2
+  - jq
+  - hub
+  - httpie
+  - kubernetes-cli
+  - kubernetes-helm
+  - nvm
+  - pandoc
+  - rbenv
+  - tree
+  - sqlite
+  - ssh-copy-id
+  - readline
+  - openssl
+  - pv
+  - wget
+  - zsh
+
+### GitLab prereqs
+  - redis
+  - postgresql@9.6
+  - libiconv
+  - icu4c
+  - cmake
+  - node
+  - npm
+  - yarn
+  - coreutils
+  - re2
+
+homebrew_taps:
+  - homebrew/core
+  - caskroom/cask
+  - caskroom/drivers
+  - caskroom/versions
+  - drud/ddev
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - 1password
+  - alfred
+  - appzapper
+  - android-file-transfer
+  - android-sdk
+  - atom
+  - backblaze
+  - bartender
+  - balenaetcher
+  - brave
+  - caffeine
+  - carbon-copy-cloner
+  - colloquy
+  - choosy
+  - cyberduck
+  - dash
+  - docker
+  - dropbox
+  - firefox
+  - garmin-express
+  - gitter
+  - google-chrome
+  - gpg-suite
+  - grandperspective
+  - handbrake
+  - iterm2
+  - java
+  - kitematic
+  - little-snitch
+  - mamp
+  - minikube
+  - moom
+  - nordvpn
+  - notion
+  - nvalt
+  - phpstorm
+  - the-unarchiver
+  - scansnap-manager-s1500
+  - sequel-pro
+  - skype
+  - slack
+  - slingplayer-desktop
+  - spectacle
+  - spotify
+  - spotifree
+  - tunnelblick
+  - vagrant
+  - veracrypt
+  - virtualbox
+  - visual-studio-code
+  - vlc
+  - zoomus
+
+# See `geerlingguy.mas` role documentation for usage instructions.
+mas_installed_apps:
+  - { id: 671736912, name: "FruitJuice" }
+  - { id: 540348655, name: "Monosnap" }
+  - { id: 1384080005, name: "Tweetbot 3" }
+  - { id: 979047768, name: "Browserism" }
