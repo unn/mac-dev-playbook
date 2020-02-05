@@ -47,6 +47,7 @@ homebrew_installed_packages:
   - readline
   - rvm
   - openssl
+  - python-yq
   - pv
   - vscodium
   - watch
@@ -78,20 +79,20 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - 1password
   - alfred
-  - appzapper
   - android-file-transfer
   - android-sdk
+  - appzapper
+  - atom
   - audio-hijack
   - authy
-  - atom
   - backblaze
-  - bartender
   - balenaetcher
+  - bartender
   - brave
   - caffeine
   - carbon-copy-cloner
-  - colloquy
   - choosy
+  - colloquy
   - cyberduck
   - dash
   - docker
@@ -108,6 +109,7 @@ homebrew_cask_apps:
   - iterm2
   - java
   - kitematic
+  - lg-onscreen-control
   - little-snitch
   - macupdater
   - mamp
@@ -117,20 +119,20 @@ homebrew_cask_apps:
   - notion
   - nvalt
   - phpstorm
-  - the-unarchiver
   - sequel-pro
   - skype
   - slack
   - slingplayer-desktop
   - spectacle
   - spotify
-  - spotifree
+  - suspicious-package
+  - the-unarchiver
   - tunnelblick
   - vagrant
   - veracrypt
   - virtualbox
-  - vscodium
   - vlc
+  - vscodium
   - vuescan
   - zoomus
 
